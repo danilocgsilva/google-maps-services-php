@@ -1,5 +1,5 @@
 {
-    "name": "yidas/google-maps-services",
+    "name": "danilocgsilva/google-maps-services",
     "description": "PHP client library(SDK) for Google Maps API Web Services",
     "keywords": ["Google maps", "services", "php", "sdk"],
     "homepage": "https://github.com/yidas/google-maps-services-php",
@@ -10,7 +10,7 @@
         "source": "https://github.com/yidas/google-maps-services-php"
     },
     "require": {
-        "php": ">=5.4",
+        "php": "^7.0",
         "guzzlehttp/guzzle": "~6.0|~7.0"
     },
     "autoload": {
