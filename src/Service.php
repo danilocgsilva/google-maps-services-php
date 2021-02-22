@@ -1,6 +1,6 @@
 <?php
 
-namespace yidas\googleMaps;
+namespace danilocgsilva\googleMaps;
 
 /**
  * Google Maps Abstract Service

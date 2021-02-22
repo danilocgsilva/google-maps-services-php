@@ -1,6 +1,6 @@
 <?php
 
-namespace yidas\googleMaps;
+namespace danilocgsilva\googleMaps;
 
 use Exception;
 use GuzzleHttp\Client as HttpClient;
@@ -194,7 +194,7 @@ class Client
      * @param array Method arguments
      * @return mixed Current service method return
      * @example 
-     *  $equal = \yidas\googleMaps\Geocoding::geocode($client, 'Address');
+     *  $equal = \danilocgsilva\googleMaps\Geocoding::geocode($client, 'Address');
      *  $equal = $client->geocode('Address');
      */
     public function __call($method, $arguments)
