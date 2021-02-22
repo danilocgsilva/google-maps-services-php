@@ -23,7 +23,7 @@ class Client
      * 
      * @see http://php.net/manual/en/language.namespaces.rules.php
      */
-    const SERVICE_NAMESPACE = "\\yidas\\googleMaps\\";
+    const SERVICE_NAMESPACE = "\\danilocgsilva\\googleMaps\\";
 
     /**
      * For Client-Service API method director
