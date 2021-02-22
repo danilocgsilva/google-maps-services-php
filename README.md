@@ -40,7 +40,7 @@ DEMONSTRATION
 
 
 ```php
-$gmaps = new \yidas\googleMaps\Client(['key'=>'Your API Key']);
+$gmaps = new \danilocgsilva\googleMaps\Client(['key'=>'Your API Key']);
 
 // Geocoding an address
 $geocodeResult = $gmaps->geocode('Taipei 101, Taipei City, Taiwan 110');
@@ -126,7 +126,7 @@ Then you could call it after Composer is loaded depended on your PHP framework:
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use yidas\googleMaps\Client;
+use danilocgsilva\googleMaps\Client;
 ```
 
 ---
@@ -141,7 +141,7 @@ Before using any Google Maps Services, first you need to create a Client with co
 Create a Client using [API key]((#api-keys)):
 
 ```php
-$gmaps = new \yidas\googleMaps\Client(['key'=>'Your API Key']);
+$gmaps = new \danilocgsilva\googleMaps\Client(['key'=>'Your API Key']);
 ```
 
 #### Google Maps APIs Premium Plan license
@@ -149,7 +149,7 @@ $gmaps = new \yidas\googleMaps\Client(['key'=>'Your API Key']);
 If you use [Google Maps APIs Premium Plan license](https://developers.google.com/maps/documentation/directions/get-api-key#client-id) instead of an API key, you could create Client using client ID and client secret (digital signature) for authentication.
 
 ```php
-$gmaps = new \yidas\googleMaps\Client([
+$gmaps = new \danilocgsilva\googleMaps\Client([
     'clientID' => 'Your client ID', 
     'clientSecret' => 'Your digital signature'
     ]);
@@ -160,7 +160,7 @@ $gmaps = new \yidas\googleMaps\Client([
 You could set language for Client for all serivces:
 
 ```php
-$gmaps = new \yidas\googleMaps\Client(['key'=>'Your API Key', 'language'=>'zh-TW']);
+$gmaps = new \danilocgsilva\googleMaps\Client(['key'=>'Your API Key', 'language'=>'zh-TW']);
 ```
 
 Changing language during execution:

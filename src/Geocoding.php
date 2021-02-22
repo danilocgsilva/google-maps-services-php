@@ -1,9 +1,9 @@
 <?php
 
-namespace yidas\googleMaps;
+namespace danilocgsilva\googleMaps;
 
-use yidas\googleMaps\Service;
-use yidas\googleMaps\Client;
+use danilocgsilva\googleMaps\Service;
+use danilocgsilva\googleMaps\Client;
 
 /**
  * Geocoding Service
