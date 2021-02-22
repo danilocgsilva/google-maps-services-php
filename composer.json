@@ -2,20 +2,16 @@
     "name": "danilocgsilva/google-maps-services",
     "description": "PHP client library(SDK) for Google Maps API Web Services",
     "keywords": ["Google maps", "services", "php", "sdk"],
-    "homepage": "https://github.com/yidas/google-maps-services-php",
+    "homepage": "https://github.com/danilocgsilva/google-maps-services-php.git",
     "type": "library",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/yidas/google-maps-services-php/issues",
-        "source": "https://github.com/yidas/google-maps-services-php"
-    },
     "require": {
         "php": "^7.0",
         "guzzlehttp/guzzle": "~6.0|~7.0"
     },
     "autoload": {
         "psr-4": {
-            "yidas\\googleMaps\\": "src/"
+            "danilocgsilva\\googleMaps\\": "src/"
         }
     }
 }
